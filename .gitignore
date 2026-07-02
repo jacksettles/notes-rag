@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment variables / secrets
+.env
+.streamlit/secrets.toml
+
+# Local app data / ChromaDB
+data/
+chroma_db/
+chroma/
+*.sqlite3
+*.db
+
+# OS files
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
