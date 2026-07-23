@@ -1,6 +1,6 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 .venv/
 venv/
 
@@ -20,3 +20,6 @@ chroma/
 
 # Jupyter
 .ipynb_checkpoints/
+
+*.log
+.cache/
